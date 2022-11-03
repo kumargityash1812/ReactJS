@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:aliceblue;
+    margin-top: 5rem;
+}
+h2,h5{
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1px;
+    text-transform:uppercase;
+    margin-top: 10px;
+}
+.users{
+   display:grid;
+   grid-template-columns: 350px 350px 350px;
+   gap:50px;
+   margin-top: 60px;
+   margin-left: 100px;
+  
+}
+.article{
+    background-color: white;
+    height:200px;
+    width:500px;
+    padding:30px 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+    border:2px solid grey;
+}
+form{
+    margin-bottom: 20px;
+}
+label{
+    margin-right: 10px;
+    font-size: 20px;
+}
+input{
+    width:250px;
+    padding-left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.contain{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.img{
+   width:50px;
+   height:50px;
+   border-radius: 25px;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+.but1{
+    margin-left: 100px;
+}
+li{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    height:80px;
+    border-radius: 20px;
+    padding:10px 10px;
+}
+.h2{
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    margin-right: 500px;
+    font-size: 30px;
+}
+button{
+    width:120px;
+    height:30px;
+    background-color: blue;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    place-content:center ;
+    align-items: center;
+    color:white;
+    border: none;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+button:hover{
+    opacity:0.8;
+}
+.Button{
+   display: flex;
+   flex-direction: row;
+   gap:20px;
+   margin-left:550px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    width:800px;
+    background-color: azure;
+    margin-left: 400px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+.button2{
+    background-color: royalblue;
+    border:none;
+    color:white;
+    text-align: center;
+    margin-left: 760px;
+    width:130px;
+    height:35px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.button3{
+    background-color: coral;
+        border: none;
+        color: white;
+        text-align: center;
+        margin-left: 760px;
+        width: 130px;
+        height: 35px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+}
+.button2:hover,.button2:active{
+    background-color: red;
+}
